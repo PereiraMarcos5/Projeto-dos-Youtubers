@@ -1,0 +1,9 @@
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.exe.config
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.exe
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.pdb
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csprojResolveAssemblyReference.cache
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.Properties.Resources.resources
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csproj.GenerateResource.Cache
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.exe
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.pdb
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.CadastroYoutubers.resources
