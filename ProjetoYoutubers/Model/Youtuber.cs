@@ -132,14 +132,21 @@ namespace Model
             NumberOfVideos = videos;
         }
 
-        private string SetNationality(string país)
+        private void SetNationality(string país)
         {
-            if (país.C)
-            {
-                throw new Exception("Nome do Canal deve conter no minimo 4 caracteres");
-            }
+            Nationality = país;
         }
 
+        private void SetPlataforma(string plataforma)
+        {
+            Plataforma = plataforma;
+        }
+
+
+        public void GetName()
+        {
+            return;
+        }
 
     }
 }
