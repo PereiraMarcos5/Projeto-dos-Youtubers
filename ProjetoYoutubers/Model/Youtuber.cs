@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace Model
 {
@@ -16,10 +17,11 @@ namespace Model
         private long NumberViews;
         private long NumberLikes;
         private bool Ads;
-        private int Money;
+        private double Money;
         private string Link;
         private int NumberOfVideos;
         private string Nationality;
+        private string Plataforma;
 
         public void SetName(string nome)
         {
@@ -62,7 +64,7 @@ namespace Model
             Nickname = apelido;
         }
 
-        public void setChannel(string canal)
+        public void SetChannel(string canal)
         {
             if (canal.Trim().Count() < 4)
             {
@@ -75,7 +77,7 @@ namespace Model
             Channel = canal;
         }
 
-        public void setNumberViews(long views)
+        public void SetNumberViews(long views)
         {
             if (views <= 0)
             {
@@ -84,7 +86,7 @@ namespace Model
             NumberViews = views;
         }
 
-        public void setNumberLikes(long likes)
+        public void SetNumberLikes(long likes)
         {
             if (likes <= 0)
             {
@@ -93,12 +95,50 @@ namespace Model
             NumberLikes = likes;
         }
 
-            public void setAds(bool anuncio)
+        public void SetAds(bool anuncio)
         {
             Ads = anuncio;
         }
 
-        public 
+        public void SetMoney(double renda)
+        {
+            if (renda < 0)
+            {
+                throw new Exception("A renda tem que ser maior que 0");
+            }
+            Money = renda;
+        }
+
+        public void SetLink(string link)
+        {
+            if (link.Count() > 24 /*não me entenda errado 24 é apenas o numero de caracteres que tem em https://www.youtube.com/ */)
+            {
+                throw new Exception("Deixe o Link correto de seu canal");
+            }
+            Link = link;
+        }
+
+        public void SetNumberOfVideos(int videos)
+        {
+            if (videos < 0)
+            {
+                throw new Exception("O número de videos tem que ser maior que 0");
+            }
+
+            if (videos > 200000)
+            {
+                throw new Exception("O numero de videos tem menor que 200000");
+            }
+            NumberOfVideos = videos;
+        }
+
+        private string SetNationality(string país)
+        {
+            if (país.C)
+            {
+                throw new Exception("Nome do Canal deve conter no minimo 4 caracteres");
+            }
+        }
 
 
     }

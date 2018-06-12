@@ -80,9 +80,9 @@
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 21);
+            this.label2.Size = new System.Drawing.Size(54, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Nome:";
+            this.label2.Text = "Nome";
             // 
             // label3
             // 
@@ -90,9 +90,9 @@
             this.label3.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label3.Location = new System.Drawing.Point(13, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 21);
+            this.label3.Size = new System.Drawing.Size(94, 21);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Sobrenome:";
+            this.label3.Text = "Sobrenome";
             // 
             // label4
             // 
@@ -100,9 +100,9 @@
             this.label4.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label4.Location = new System.Drawing.Point(13, 225);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 21);
+            this.label4.Size = new System.Drawing.Size(162, 21);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Apelido / Nickname:";
+            this.label4.Text = "Apelido / Nickname";
             // 
             // label5
             // 
@@ -110,9 +110,9 @@
             this.label5.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label5.Location = new System.Drawing.Point(13, 303);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 21);
+            this.label5.Size = new System.Drawing.Size(126, 21);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Nome do Canal:";
+            this.label5.Text = "Nome do Canal";
             // 
             // label6
             // 
@@ -120,9 +120,9 @@
             this.label6.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label6.Location = new System.Drawing.Point(13, 385);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(235, 21);
+            this.label6.Size = new System.Drawing.Size(231, 21);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Quantidade de Visualizações:";
+            this.label6.Text = "Quantidade de Visualizações";
             // 
             // txtDescrição
             // 
@@ -130,9 +130,9 @@
             this.txtDescrição.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.txtDescrição.Location = new System.Drawing.Point(13, 464);
             this.txtDescrição.Name = "txtDescrição";
-            this.txtDescrição.Size = new System.Drawing.Size(173, 21);
+            this.txtDescrição.Size = new System.Drawing.Size(169, 21);
             this.txtDescrição.TabIndex = 6;
-            this.txtDescrição.Text = "Quantidade de Likes:";
+            this.txtDescrição.Text = "Quantidade de Likes";
             // 
             // label8
             // 
@@ -140,9 +140,9 @@
             this.label8.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label8.Location = new System.Drawing.Point(13, 531);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 21);
+            this.label8.Size = new System.Drawing.Size(86, 21);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Descrição:";
+            this.label8.Text = "Descrição";
             // 
             // label9
             // 
@@ -160,9 +160,9 @@
             this.label10.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label10.Location = new System.Drawing.Point(428, 156);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 21);
+            this.label10.Size = new System.Drawing.Size(59, 21);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Renda:";
+            this.label10.Text = "Renda";
             // 
             // label11
             // 
@@ -170,9 +170,9 @@
             this.label11.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label11.Location = new System.Drawing.Point(428, 225);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 21);
+            this.label11.Size = new System.Drawing.Size(49, 21);
             this.label11.TabIndex = 10;
-            this.label11.Text = "Link:";
+            this.label11.Text = "Link";
             // 
             // label12
             // 
@@ -180,9 +180,9 @@
             this.label12.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label12.Location = new System.Drawing.Point(428, 303);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(159, 21);
+            this.label12.Size = new System.Drawing.Size(155, 21);
             this.label12.TabIndex = 11;
-            this.label12.Text = "Quantidade Videos:";
+            this.label12.Text = "Quantidade Videos";
             // 
             // label13
             // 
@@ -190,9 +190,9 @@
             this.label13.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label13.Location = new System.Drawing.Point(428, 385);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(125, 21);
+            this.label13.Size = new System.Drawing.Size(121, 21);
             this.label13.TabIndex = 12;
-            this.label13.Text = "Nacionalidade:";
+            this.label13.Text = "Nacionalidade";
             // 
             // label14
             // 
@@ -200,9 +200,9 @@
             this.label14.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label14.Location = new System.Drawing.Point(428, 464);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(183, 21);
+            this.label14.Size = new System.Drawing.Size(179, 21);
             this.label14.TabIndex = 13;
-            this.label14.Text = "Quantidade de Strikes:";
+            this.label14.Text = "Quantidade de Strikes";
             // 
             // label15
             // 
@@ -210,9 +210,9 @@
             this.label15.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label15.Location = new System.Drawing.Point(428, 531);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(139, 21);
+            this.label15.Size = new System.Drawing.Size(135, 21);
             this.label15.TabIndex = 14;
-            this.label15.Text = "Você é Streamer:";
+            this.label15.Text = "Você é Streamer";
             // 
             // label16
             // 
@@ -220,9 +220,9 @@
             this.label16.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label16.Location = new System.Drawing.Point(428, 594);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(102, 21);
+            this.label16.Size = new System.Drawing.Size(98, 21);
             this.label16.TabIndex = 15;
-            this.label16.Text = "Plataforma:";
+            this.label16.Text = "Plataforma";
             // 
             // txtNome
             // 
@@ -287,6 +287,7 @@
             this.txtLink.Name = "txtLink";
             this.txtLink.Size = new System.Drawing.Size(220, 20);
             this.txtLink.TabIndex = 24;
+            this.txtLink.Text = "https://www.youtube.com/";
             // 
             // rbAdsSim
             // 
@@ -294,6 +295,7 @@
             this.rbAdsSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbAdsSim.Location = new System.Drawing.Point(432, 111);
             this.rbAdsSim.Name = "rbAdsSim";
+            this.rbAdsSim.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rbAdsSim.Size = new System.Drawing.Size(49, 20);
             this.rbAdsSim.TabIndex = 26;
             this.rbAdsSim.TabStop = true;
@@ -336,268 +338,120 @@
             // 
             // cbNacionalidade
             // 
+            this.cbNacionalidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNacionalidade.FormattingEnabled = true;
             this.cbNacionalidade.Items.AddRange(new object[] {
-            "Afeganistão",
-            "África do Sul",
-            "Akrotiri",
-            "Albânia",
-            "Alemanha",
-            "Andorra",
-            "Angola",
-            "Anguila",
-            "Antárctida",
-            "Antígua e Barbuda",
-            "Arábia Saudita",
-            "Arctic Ocean",
+            "Antiguano",
+            "Argentino",
+            "Bahamense",
+            "Barbadiano",
+            "Belizenho",
+            "Boliviano",
+            "Brasileiro",
+            "Chileno",
+            "Colombiano",
+            "Costarriquenho",
+            "Cubano",
+            "Dominicano",
+            "Equatoriano",
+            "Salvadorenho",
+            "Granadino",
+            "Guatemalteco",
+            "Guianês",
+            "Guianense",
+            "Haitiano",
+            "Hondurenho",
+            "Jamaicano",
+            "Mexicano",
+            "Nicaraguense",
+            "Panamenho",
+            "Paraguaio",
+            "Peruano",
+            "Portorriquenho",
+            "Dominicana",
+            "São-cristovense",
+            "São-vicentino",
+            "Santa-lucense",
+            "Surinamês",
+            "Trindadense",
+            "Uruguaio",
+            "Venezuelano",
+            "Alemão",
+            "Austríaco",
+            "Belga",
+            "Croata",
+            "Dinamarquês",
+            "Eslovaco",
+            "Esloveno",
+            "Espanhol",
+            "Francês",
+            "Grego",
+            "Húngaro",
+            "Irlandês",
+            "Italiano",
+            "Noruego",
+            "Holandês",
+            "Polonês",
+            "Português",
+            "Britânico",
+            "Inglês",
+            "Galês",
+            "Escocês",
+            "Romeno",
+            "Russo",
+            "Sérvio",
+            "Sueco",
+            "Suíço",
+            "Turco",
+            "Ucraniano",
+            "Americano",
+            "Canadense",
+            "Angolano",
+            "Moçambicano",
+            "Sul-africano",
+            "Zimbabuense",
             "Argélia",
-            "Argentina",
-            "Arménia",
-            "Aruba",
-            "Ashmore and Cartier Islands",
-            "Atlantic Ocean",
-            "Austrália",
-            "Áustria",
-            "Azerbaijão",
-            "Baamas",
-            "Bangladeche",
-            "Barbados",
-            "Barém",
-            "Bélgica",
-            "Belize",
-            "Benim",
-            "Bermudas",
-            "Bielorrússia",
-            "Birmânia",
-            "Bolívia",
-            "Bósnia e Herzegovina",
-            "Botsuana",
-            "Brasil",
-            "Brunei",
-            "Bulgária",
-            "Burquina Faso",
-            "Burúndi",
-            "Butão",
-            "Cabo Verde",
-            "Camarões",
-            "Camboja",
-            "Canadá",
-            "Catar",
-            "Cazaquistão",
-            "Chade",
-            "Chile",
-            "China",
-            "Chipre",
-            "Clipperton Island",
-            "Colômbia",
-            "Comores",
-            "Congo-Brazzaville",
-            "Congo-Kinshasa",
-            "Coral Sea Islands",
-            "Coreia do Norte",
-            "Coreia do Sul",
-            "Costa do Marfim",
-            "Costa Rica",
-            "Croácia",
-            "Cuba",
-            "Curacao",
-            "Dhekelia",
-            "Dinamarca",
-            "Domínica",
-            "Egipto",
-            "Emiratos Árabes Unidos",
-            "Equador",
-            "Eritreia",
-            "Eslováquia",
-            "Eslovénia",
-            "Espanha",
-            "Estados Unidos",
-            "Estónia",
-            "Etiópia",
-            "Faroé",
-            "Fiji",
-            "Filipinas",
-            "Finlândia",
-            "França",
-            "Gabão",
-            "Gâmbia",
-            "Gana",
-            "Gaza Strip",
-            "Geórgia",
-            "Geórgia do Sul e Sandwich do Sul",
-            "Gibraltar",
-            "Granada",
-            "Grécia",
-            "Gronelândia",
-            "Guame",
-            "Guatemala",
-            "Guernsey",
-            "Guiana",
-            "Guiné",
-            "Guiné Equatorial",
-            "Guiné-Bissau",
-            "Haiti",
-            "Honduras",
-            "Hong Kong",
-            "Hungria",
-            "Iémen",
-            "Ilha Bouvet",
-            "Ilha do Natal",
-            "Ilha Norfolk",
-            "Ilhas Caimão",
-            "Ilhas Cook",
-            "Ilhas dos Cocos",
-            "Ilhas Falkland",
-            "Ilhas Heard e McDonald",
-            "Ilhas Marshall",
-            "Ilhas Salomão",
-            "Ilhas Turcas e Caicos",
-            "Ilhas Virgens Americanas",
-            "Ilhas Virgens Britânicas",
-            "Índia",
-            "Indian Ocean",
-            "Indonésia",
-            "Irão",
-            "Iraque",
-            "Irlanda",
-            "Islândia",
-            "Israel",
-            "Itália",
-            "Jamaica",
-            "Jan Mayen",
-            "Japão",
-            "Jersey",
-            "Jibuti",
-            "Jordânia",
-            "Kosovo",
-            "Kuwait",
-            "Laos",
-            "Lesoto",
-            "Letónia",
-            "Líbano",
-            "Libéria",
-            "Líbia",
-            "Listenstaine",
-            "Lituânia",
-            "Luxemburgo",
-            "Macau",
-            "Macedónia",
-            "Madagáscar",
-            "Malásia",
-            "Malávi",
-            "Maldivas",
-            "Mali",
-            "Malta",
-            "Man, Isle of",
-            "Marianas do Norte",
-            "Marrocos",
-            "Maurícia",
-            "Mauritânia",
-            "México",
-            "Micronésia",
-            "Moçambique",
-            "Moldávia",
-            "Mónaco",
-            "Mongólia",
-            "Monserrate",
-            "Montenegro",
-            "Mundo",
-            "Namíbia",
-            "Nauru",
-            "Navassa Island",
-            "Nepal",
-            "Nicarágua",
-            "Níger",
-            "Nigéria",
-            "Niue",
-            "Noruega",
-            "Nova Caledónia",
-            "Nova Zelândia",
-            "Omã",
-            "Pacific Ocean",
-            "Países Baixos",
-            "Palau",
-            "Panamá",
-            "Papua-Nova Guiné",
-            "Paquistão",
-            "Paracel Islands",
-            "Paraguai",
-            "Peru",
-            "Pitcairn",
-            "Polinésia Francesa",
-            "Polónia",
-            "Porto Rico",
-            "Portugal",
-            "Quénia",
-            "Quirguizistão",
-            "Quiribáti",
-            "Reino Unido",
-            "República Centro-Africana",
-            "República Checa",
-            "República Dominicana",
-            "Roménia",
-            "Ruanda",
-            "Rússia",
-            "Salvador",
-            "Samoa",
-            "Samoa Americana",
-            "Santa Helena",
-            "Santa Lúcia",
-            "São Bartolomeu",
-            "São Cristóvão e Neves",
-            "São Marinho",
-            "São Martinho",
-            "São Pedro e Miquelon",
-            "São Tomé e Príncipe",
-            "São Vicente e Granadinas",
-            "Sara Ocidental",
-            "Seicheles",
-            "Senegal",
-            "Serra Leoa",
-            "Sérvia",
-            "Singapura",
-            "Sint Maarten",
-            "Síria",
-            "Somália",
-            "Southern Ocean",
-            "Spratly Islands",
-            "Sri Lanca",
-            "Suazilândia",
-            "Sudão",
-            "Sudão do Sul",
-            "Suécia",
-            "Suíça",
-            "Suriname",
-            "Svalbard e Jan Mayen",
-            "Tailândia",
-            "Taiwan",
-            "Tajiquistão",
-            "Tanzânia",
-            "Território Britânico do Oceano Índico",
-            "Territórios Austrais Franceses",
-            "Timor Leste",
-            "Togo",
-            "Tokelau",
-            "Tonga",
-            "Trindade e Tobago",
-            "Tunísia",
-            "Turquemenistão",
-            "Turquia",
-            "Tuvalu",
-            "Ucrânia",
-            "Uganda",
-            "União Europeia",
-            "Uruguai",
-            "Usbequistão",
-            "Vanuatu",
-            "Vaticano",
-            "Venezuela",
-            "Vietname",
-            "Wake Island",
-            "Wallis e Futuna",
-            "West Bank",
-            "Zâmbia",
-            "Zimbabué"});
+            "Comorense",
+            "Egípcio",
+            "Líbio",
+            "Marroquino",
+            "Ganés",
+            "Queniano",
+            "Ruandês",
+            "Ugandense",
+            "Bechuano",
+            "Marfinense",
+            "Camaronense",
+            "Nigeriano",
+            "Somali",
+            "Australiano",
+            "Neozelandês",
+            "Afegão",
+            "Saudita",
+            "Armeno",
+            "Bangladesh",
+            "Chinês",
+            "Norte-coreano",
+            "Coreano",
+            "Indiano",
+            "Indonésio",
+            "Iraquiano",
+            "Iraniano",
+            "Israelita",
+            "Japonês",
+            "Malaio",
+            "Nepalês",
+            "Omanense",
+            "Paquistanês",
+            "Palestino",
+            "Qatarense",
+            "Sírio",
+            "Cingalês",
+            "Tailandês",
+            "Timorense",
+            "Árabe",
+            "Vietnamita",
+            "Iemenita"});
             this.cbNacionalidade.Location = new System.Drawing.Point(432, 407);
             this.cbNacionalidade.Name = "cbNacionalidade";
             this.cbNacionalidade.Size = new System.Drawing.Size(179, 21);
@@ -651,12 +505,20 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Pc",
-            "PlayStation\t",
-            "Xbox",
-            "Nintendo"});
+            "Notebook",
+            "PlayStation 2\t",
+            "PlayStation 3",
+            "PlayStation  4",
+            "PlayStation Portable",
+            "Xbox 360",
+            "Xbox One",
+            "Nintendo Wii",
+            "Nintendo Switch",
+            "Nintendo Wii U"});
             this.comboBox1.Location = new System.Drawing.Point(432, 618);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(164, 21);
@@ -725,7 +587,7 @@
             // label18
             // 
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label18.Location = new System.Drawing.Point(674, 77);
+            this.label18.Location = new System.Drawing.Point(667, 79);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(2, 570);
             this.label18.TabIndex = 41;
@@ -734,6 +596,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(993, 652);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
