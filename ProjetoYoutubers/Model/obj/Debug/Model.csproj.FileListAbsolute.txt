@@ -1,0 +1,5 @@
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\bin\Debug\Model.dll
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\bin\Debug\Model.pdb
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.dll
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.pdb
+C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

@@ -60,7 +60,7 @@
             this.nupQuantStrikes = new System.Windows.Forms.NumericUpDown();
             this.rbStreamerNão = new System.Windows.Forms.RadioButton();
             this.rbStreamerSim = new System.Windows.Forms.RadioButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbPlataforma = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -68,10 +68,25 @@
             this.btnSalvar = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnApagar = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantVideos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantStrikes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -298,7 +313,6 @@
             this.rbAdsSim.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rbAdsSim.Size = new System.Drawing.Size(49, 20);
             this.rbAdsSim.TabIndex = 26;
-            this.rbAdsSim.TabStop = true;
             this.rbAdsSim.Text = "Sim";
             this.rbAdsSim.UseVisualStyleBackColor = true;
             // 
@@ -310,7 +324,6 @@
             this.rbAdsNão.Name = "rbAdsNão";
             this.rbAdsNão.Size = new System.Drawing.Size(52, 20);
             this.rbAdsNão.TabIndex = 27;
-            this.rbAdsNão.TabStop = true;
             this.rbAdsNão.Text = "Não";
             this.rbAdsNão.UseVisualStyleBackColor = true;
             // 
@@ -487,13 +500,13 @@
             this.rbStreamerNão.Name = "rbStreamerNão";
             this.rbStreamerNão.Size = new System.Drawing.Size(52, 20);
             this.rbStreamerNão.TabIndex = 32;
-            this.rbStreamerNão.TabStop = true;
             this.rbStreamerNão.Text = "Não";
             this.rbStreamerNão.UseVisualStyleBackColor = true;
             // 
             // rbStreamerSim
             // 
             this.rbStreamerSim.AutoSize = true;
+            this.rbStreamerSim.Checked = true;
             this.rbStreamerSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbStreamerSim.Location = new System.Drawing.Point(432, 555);
             this.rbStreamerSim.Name = "rbStreamerSim";
@@ -503,11 +516,11 @@
             this.rbStreamerSim.Text = "Sim";
             this.rbStreamerSim.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbPlataforma
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbPlataforma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPlataforma.FormattingEnabled = true;
+            this.cbPlataforma.Items.AddRange(new object[] {
             "Pc",
             "Notebook",
             "PlayStation 2\t",
@@ -519,15 +532,15 @@
             "Nintendo Wii",
             "Nintendo Switch",
             "Nintendo Wii U"});
-            this.comboBox1.Location = new System.Drawing.Point(432, 618);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(164, 21);
-            this.comboBox1.TabIndex = 33;
+            this.cbPlataforma.Location = new System.Drawing.Point(432, 618);
+            this.cbPlataforma.Name = "cbPlataforma";
+            this.cbPlataforma.Size = new System.Drawing.Size(164, 21);
+            this.cbPlataforma.TabIndex = 33;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(696, 87);
+            this.pictureBox1.Location = new System.Drawing.Point(681, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 61);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -538,11 +551,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(766, 99);
+            this.label7.Location = new System.Drawing.Point(751, 99);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(141, 34);
+            this.label7.Size = new System.Drawing.Size(167, 34);
             this.label7.TabIndex = 36;
-            this.label7.Text = "YouTube";
+            this.label7.Text = "YouTubers";
             // 
             // pictureBox2
             // 
@@ -569,19 +582,20 @@
             this.btnSalvar.BackColor = System.Drawing.Color.Maroon;
             this.btnSalvar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(696, 546);
+            this.btnSalvar.Location = new System.Drawing.Point(988, 6);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(285, 94);
+            this.btnSalvar.Size = new System.Drawing.Size(275, 68);
             this.btnSalvar.TabIndex = 39;
             this.btnSalvar.Text = "Salvar Cadastro";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // label17
             // 
             this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label17.Location = new System.Drawing.Point(1, 77);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(1000, 2);
+            this.label17.Size = new System.Drawing.Size(10000, 2);
             this.label17.TabIndex = 40;
             // 
             // label18
@@ -592,12 +606,130 @@
             this.label18.Size = new System.Drawing.Size(2, 570);
             this.label18.TabIndex = 41;
             // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.Maroon;
+            this.btnEditar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.Location = new System.Drawing.Point(720, 6);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(262, 68);
+            this.btnEditar.TabIndex = 42;
+            this.btnEditar.Text = "Editar Cadastro";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnApagar
+            // 
+            this.btnApagar.BackColor = System.Drawing.Color.Maroon;
+            this.btnApagar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
+            this.btnApagar.ForeColor = System.Drawing.Color.White;
+            this.btnApagar.Location = new System.Drawing.Point(439, 6);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(275, 68);
+            this.btnApagar.TabIndex = 43;
+            this.btnApagar.Text = "Apagar Cadastro";
+            this.btnApagar.UseVisualStyleBackColor = false;
+            this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column8,
+            this.Column9,
+            this.Column10,
+            this.Column11,
+            this.Column12});
+            this.dataGridView1.Location = new System.Drawing.Point(681, 156);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(572, 484);
+            this.dataGridView1.TabIndex = 44;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Nome";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Sobrenome";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Apelido";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Canal";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Views";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Likes";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Renda";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Link";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Numero de Videos ";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "Nacionalidade";
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "Plataforma";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            // 
             // CadastroYoutubers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(993, 652);
+            this.ClientSize = new System.Drawing.Size(1265, 652);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnApagar);
+            this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.btnSalvar);
@@ -605,7 +737,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbPlataforma);
             this.Controls.Add(this.rbStreamerNão);
             this.Controls.Add(this.rbStreamerSim);
             this.Controls.Add(this.nupQuantStrikes);
@@ -639,11 +771,13 @@
             this.Controls.Add(this.label2);
             this.Name = "CadastroYoutubers";
             this.Text = "Cadastro de Youtubers";
+            this.Activated += new System.EventHandler(this.CadastroYoutubers_Activated);
             this.Load += new System.EventHandler(this.CadastroYoutubers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantVideos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantStrikes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -682,7 +816,7 @@
         private System.Windows.Forms.NumericUpDown nupQuantStrikes;
         private System.Windows.Forms.RadioButton rbStreamerNão;
         private System.Windows.Forms.RadioButton rbStreamerSim;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbPlataforma;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -690,6 +824,20 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnApagar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
     }
 }
 

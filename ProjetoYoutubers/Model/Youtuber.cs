@@ -21,6 +21,7 @@ namespace Model
         private string Link;
         private int NumberOfVideos;
         private string Nationality;
+        private bool Streamer;
         private string Plataforma;
 
         public void SetName(string nome)
@@ -97,6 +98,10 @@ namespace Model
 
         public void SetAds(bool anuncio)
         {
+            if ((!true) && (!false))
+            {
+                throw new Exception("Informe entre sim ou não");
+            }
             Ads = anuncio;
         }
 
@@ -107,6 +112,15 @@ namespace Model
                 throw new Exception("A renda tem que ser maior que 0");
             }
             Money = renda;
+        }
+
+        public void SetStreamer(bool streamer)
+        {
+            if ((!true) && (!false))
+            {
+                throw new Exception("Informe entre sim ou não");
+            }
+            Streamer = streamer;
         }
 
         public void SetLink(string link)
@@ -132,21 +146,80 @@ namespace Model
             NumberOfVideos = videos;
         }
 
-        private void SetNationality(string país)
+        public void SetNationality(string país)
         {
             Nationality = país;
         }
 
-        private void SetPlataforma(string plataforma)
+        public void SetPlataforma(string plataforma)
         {
             Plataforma = plataforma;
         }
 
 
-        public void GetName()
+        public string GetName()
         {
-            return;
+            return Name;
         }
 
+        public string GetLastname()
+        {
+            return Lastname;
+        }
+
+        public string GetNickname()
+        {
+            return Nickname;
+        }
+
+        public string GetChannel()
+        {
+            return Channel;
+        }
+
+        public long GetNumberViews()
+        {
+            return NumberViews;
+        }
+
+        public long GetNumberLikes()
+        {
+            return NumberLikes;
+        }
+
+        public bool GetAds()
+        {
+            return Ads;
+        }
+
+        public double GetMoney()
+        {
+            return Money;
+        }
+        
+        public string GetLink()
+        {
+            return Link;
+        }
+
+        public int GetNumberOfVideos()
+        {
+            return NumberOfVideos;
+        }
+
+        public string GetNationality()
+        {
+            return Nationality;
+        }
+
+        public bool GetStreamer()
+        {
+            return Streamer;
+        }
+
+        public string GetPlataforma()
+        {
+            return Plataforma;
+        }
     }
 }
