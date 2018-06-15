@@ -3,3 +3,9 @@ C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Mod
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.dll
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.pdb
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\bin\Debug\Model.dll
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\bin\Debug\Model.pdb
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.dll
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Model\obj\Debug\Model.pdb

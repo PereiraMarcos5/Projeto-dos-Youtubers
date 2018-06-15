@@ -29,28 +29,40 @@ namespace ProjetoYoutubers
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            Youtuber youtuber = new Youtuber();
-            youtuber.SetName(txtNome.Text);
-            youtuber.SetLastname(txtSobrenome.Text);
-            youtuber.SetNickname(txtApelido.Text);
-            youtuber.SetChannel(txtNomeCanal.Text);
-            youtuber.SetNumberViews(Convert.ToInt64(txtQuantVisual.Text));
-            youtuber.SetNumberLikes(Convert.ToInt64(txtLikes.Text));
-            youtuber.SetAds(rbAdsSim.Checked);
-            youtuber.SetAds(rbAdsNão.Checked);
-            youtuber.SetMoney(Convert.ToDouble(txtRenda.Text));
-            youtuber.SetChannel(txtNomeCanal.Text);
-            youtuber.SetLink(txtLink.Text);
-            youtuber.SetNumberOfVideos(Convert.ToInt32(nupQuantVideos.Text));
-            youtuber.SetNationality(cbNacionalidade.Text);
-            youtuber.SetStreamer(rbStreamerSim.Checked);
-            youtuber.SetStreamer(rbStreamerNão.Checked);
-            youtuber.SetPlataforma(cbPlataforma.Text);
+            try
+            {
+                Youtuber youtuber = new Youtuber();
+                youtuber.SetName(txtNome.Text);
+                youtuber.SetLastname(txtSobrenome.Text);
+                youtuber.SetNickname(txtApelido.Text);
+                youtuber.SetChannel(txtNomeCanal.Text);
+                youtuber.SetNumberViews(Convert.ToInt64(txtQuantVisual.Text));
+                youtuber.SetNumberLikes(Convert.ToInt64(txtLikes.Text));
+                youtuber.SetAds(rbAdsSim.Checked);
+                youtuber.SetAds(rbAdsNão.Checked);
+                youtuber.SetMoney(Convert.ToDouble(txtRenda.Text));
+                youtuber.SetChannel(txtNomeCanal.Text);
+                youtuber.SetLink(txtLink.Text);
+                youtuber.SetNumberOfVideos(Convert.ToInt32(nupQuantVideos.Text));
+                youtuber.SetNationality(Convert.ToString(cbNacionalidade.Text));
+                youtuber.SetStreamer(rbStreamerSim.Checked);
+                youtuber.SetStreamer(rbStreamerNão.Checked);
+                youtuber.SetPlataforma(cbPlataforma.Text);
 
-            YoutuberRepository tudo = new YoutuberRepository();
-            tudo.AdicionarYoutuber(youtuber);
+                YoutuberRepository tudo = new YoutuberRepository();
+                tudo.AdicionarYoutuber(youtuber);
 
-            MessageBox.Show("Youtuber Cadastrado com Sucesso");
+                MessageBox.Show("Youtuber Cadastrado com Sucesso");
+                AtualizarListaYoutuber();
+                LimparCampos();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
+            LimparCampos();
             AtualizarListaYoutuber();
         }
 
@@ -83,6 +95,23 @@ namespace ProjetoYoutubers
             AtualizarListaYoutuber();
         }
 
+        private void LimparCampos()
+        {
+            txtNome.Text = "";
+            txtSobrenome.Text = "";
+            txtApelido.Text = "";
+            txtNomeCanal.Text = "";
+            txtQuantVisual.Text = "";
+            txtLikes.Text = "";
+            rbAdsSim.Text = "";
+            txtRenda.Text = "";
+            txtLink.Text = "";
+            nupQuantVideos.Text = "";
+            cbNacionalidade.Text = "";
+            cbPlataforma.Text = "";
+
+        }
+
         private void ApagarYoutuber()
         {
             if (dataGridView1.CurrentRow == null)
@@ -109,11 +138,10 @@ namespace ProjetoYoutubers
                 }
 
                 string name = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
-                dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
                 YoutuberRepository repository = new YoutuberRepository();
-                int quantidade = 0;
                 foreach (Youtuber youtuber in repository.ObterYoutubers())
                 {
+                    int quantidade = 0;
                     if (youtuber.GetName() == name)
                     {
                         txtNome.Text = youtuber.GetName();
@@ -132,28 +160,39 @@ namespace ProjetoYoutubers
                         posicao = quantidade;
                         return;
                     }
+
                     quantidade++;
-                dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
                 }
             }
         }
         private void btnEditar_Click(object sender, EventArgs e)
         {
             EditarYoutubers();
-            string name = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
-
-            dataGridView1.Rows.RemoveAt(dataGridView1.CurrentRow.Index);
-
-            YoutuberRepository repositorio = new YoutuberRepository();
-            repositorio.ApagarYoutuber(name);
-            
         }
 
         private void btnApagar_Click(object sender, EventArgs e)
         {
+
             ApagarYoutuber();
         }
-
-       
+        
+        private void CadastroYoutubers_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Control)
+            {
+                MessageBox.Show(@"Comandos Via Teclado
+CTRL + Del apagar um Cadastro
+Z para editar Cadastro");
+            }
+            else if (e.Modifiers == Keys.Control && e.KeyCode == Keys.Delete)
+            {
+                ApagarYoutuber();
+            }
+            else if (e.KeyCode == Keys.Z)
+            {
+                EditarYoutubers();
+            }
+        }
     }
 }
+   

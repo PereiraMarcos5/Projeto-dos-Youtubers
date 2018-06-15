@@ -82,15 +82,22 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantVideos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantStrikes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 87);
@@ -101,6 +108,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label3.Location = new System.Drawing.Point(13, 156);
@@ -111,6 +121,8 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label4.Location = new System.Drawing.Point(13, 225);
@@ -121,6 +133,9 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label5.Location = new System.Drawing.Point(13, 303);
@@ -131,6 +146,9 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label6.Location = new System.Drawing.Point(13, 385);
@@ -141,6 +159,9 @@
             // 
             // txtDescrição
             // 
+            this.txtDescrição.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescrição.AutoSize = true;
             this.txtDescrição.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.txtDescrição.Location = new System.Drawing.Point(13, 464);
@@ -151,6 +172,9 @@
             // 
             // label8
             // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label8.Location = new System.Drawing.Point(13, 531);
@@ -161,6 +185,8 @@
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label9.Location = new System.Drawing.Point(428, 87);
@@ -171,6 +197,7 @@
             // 
             // label10
             // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label10.Location = new System.Drawing.Point(428, 156);
@@ -181,6 +208,7 @@
             // 
             // label11
             // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label11.Location = new System.Drawing.Point(428, 225);
@@ -191,6 +219,7 @@
             // 
             // label12
             // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label12.Location = new System.Drawing.Point(428, 303);
@@ -201,6 +230,7 @@
             // 
             // label13
             // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label13.Location = new System.Drawing.Point(428, 385);
@@ -211,6 +241,7 @@
             // 
             // label14
             // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label14.Location = new System.Drawing.Point(428, 464);
@@ -221,6 +252,7 @@
             // 
             // label15
             // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label15.Location = new System.Drawing.Point(428, 531);
@@ -231,6 +263,9 @@
             // 
             // label16
             // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Modern No. 20", 14.25F);
             this.label16.Location = new System.Drawing.Point(428, 594);
@@ -241,78 +276,97 @@
             // 
             // txtNome
             // 
+            this.txtNome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtNome.Location = new System.Drawing.Point(16, 111);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(192, 20);
-            this.txtNome.TabIndex = 16;
+            this.txtNome.TabIndex = 1;
             // 
             // txtSobrenome
             // 
+            this.txtSobrenome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtSobrenome.Location = new System.Drawing.Point(17, 181);
             this.txtSobrenome.Name = "txtSobrenome";
             this.txtSobrenome.Size = new System.Drawing.Size(191, 20);
-            this.txtSobrenome.TabIndex = 17;
+            this.txtSobrenome.TabIndex = 2;
             // 
             // txtApelido
             // 
+            this.txtApelido.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtApelido.Location = new System.Drawing.Point(17, 250);
             this.txtApelido.Name = "txtApelido";
             this.txtApelido.Size = new System.Drawing.Size(191, 20);
-            this.txtApelido.TabIndex = 18;
+            this.txtApelido.TabIndex = 3;
             // 
             // txtNomeCanal
             // 
+            this.txtNomeCanal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtNomeCanal.Location = new System.Drawing.Point(17, 327);
             this.txtNomeCanal.Name = "txtNomeCanal";
             this.txtNomeCanal.Size = new System.Drawing.Size(191, 20);
-            this.txtNomeCanal.TabIndex = 19;
+            this.txtNomeCanal.TabIndex = 4;
             // 
             // txtQuantVisual
             // 
+            this.txtQuantVisual.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtQuantVisual.Location = new System.Drawing.Point(17, 409);
             this.txtQuantVisual.Name = "txtQuantVisual";
             this.txtQuantVisual.Size = new System.Drawing.Size(126, 20);
-            this.txtQuantVisual.TabIndex = 20;
+            this.txtQuantVisual.TabIndex = 5;
             // 
             // txtLikes
             // 
+            this.txtLikes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.txtLikes.Location = new System.Drawing.Point(17, 488);
             this.txtLikes.Name = "txtLikes";
             this.txtLikes.Size = new System.Drawing.Size(126, 20);
-            this.txtLikes.TabIndex = 21;
+            this.txtLikes.TabIndex = 6;
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Location = new System.Drawing.Point(17, 556);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(302, 83);
-            this.textBox2.TabIndex = 22;
+            this.textBox2.TabIndex = 7;
             // 
             // txtRenda
             // 
+            this.txtRenda.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtRenda.Location = new System.Drawing.Point(432, 181);
             this.txtRenda.Name = "txtRenda";
             this.txtRenda.Size = new System.Drawing.Size(126, 20);
-            this.txtRenda.TabIndex = 23;
+            this.txtRenda.TabIndex = 10;
             // 
             // txtLink
             // 
+            this.txtLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtLink.Location = new System.Drawing.Point(432, 250);
             this.txtLink.Name = "txtLink";
             this.txtLink.Size = new System.Drawing.Size(220, 20);
-            this.txtLink.TabIndex = 24;
+            this.txtLink.TabIndex = 11;
             this.txtLink.Text = "https://www.youtube.com/";
             // 
             // rbAdsSim
             // 
             this.rbAdsSim.AutoSize = true;
+            this.rbAdsSim.Checked = true;
             this.rbAdsSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbAdsSim.Location = new System.Drawing.Point(432, 111);
+            this.rbAdsSim.Location = new System.Drawing.Point(7, 3);
             this.rbAdsSim.Name = "rbAdsSim";
             this.rbAdsSim.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rbAdsSim.Size = new System.Drawing.Size(49, 20);
-            this.rbAdsSim.TabIndex = 26;
+            this.rbAdsSim.TabIndex = 8;
+            this.rbAdsSim.TabStop = true;
             this.rbAdsSim.Text = "Sim";
             this.rbAdsSim.UseVisualStyleBackColor = true;
             // 
@@ -320,15 +374,16 @@
             // 
             this.rbAdsNão.AutoSize = true;
             this.rbAdsNão.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbAdsNão.Location = new System.Drawing.Point(490, 111);
+            this.rbAdsNão.Location = new System.Drawing.Point(62, 3);
             this.rbAdsNão.Name = "rbAdsNão";
             this.rbAdsNão.Size = new System.Drawing.Size(52, 20);
-            this.rbAdsNão.TabIndex = 27;
+            this.rbAdsNão.TabIndex = 9;
             this.rbAdsNão.Text = "Não";
             this.rbAdsNão.UseVisualStyleBackColor = true;
             // 
             // nupQuantVideos
             // 
+            this.nupQuantVideos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.nupQuantVideos.Location = new System.Drawing.Point(432, 328);
             this.nupQuantVideos.Maximum = new decimal(new int[] {
             10000,
@@ -342,7 +397,7 @@
             0});
             this.nupQuantVideos.Name = "nupQuantVideos";
             this.nupQuantVideos.Size = new System.Drawing.Size(86, 20);
-            this.nupQuantVideos.TabIndex = 28;
+            this.nupQuantVideos.TabIndex = 12;
             this.nupQuantVideos.Value = new decimal(new int[] {
             1,
             0,
@@ -351,6 +406,7 @@
             // 
             // cbNacionalidade
             // 
+            this.cbNacionalidade.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbNacionalidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNacionalidade.FormattingEnabled = true;
             this.cbNacionalidade.Items.AddRange(new object[] {
@@ -468,10 +524,11 @@
             this.cbNacionalidade.Location = new System.Drawing.Point(432, 407);
             this.cbNacionalidade.Name = "cbNacionalidade";
             this.cbNacionalidade.Size = new System.Drawing.Size(179, 21);
-            this.cbNacionalidade.TabIndex = 29;
+            this.cbNacionalidade.TabIndex = 13;
             // 
             // nupQuantStrikes
             // 
+            this.nupQuantStrikes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.nupQuantStrikes.Location = new System.Drawing.Point(432, 488);
             this.nupQuantStrikes.Maximum = new decimal(new int[] {
             10000,
@@ -485,7 +542,7 @@
             0});
             this.nupQuantStrikes.Name = "nupQuantStrikes";
             this.nupQuantStrikes.Size = new System.Drawing.Size(86, 20);
-            this.nupQuantStrikes.TabIndex = 30;
+            this.nupQuantStrikes.TabIndex = 14;
             this.nupQuantStrikes.Value = new decimal(new int[] {
             1,
             0,
@@ -496,10 +553,10 @@
             // 
             this.rbStreamerNão.AutoSize = true;
             this.rbStreamerNão.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbStreamerNão.Location = new System.Drawing.Point(490, 555);
+            this.rbStreamerNão.Location = new System.Drawing.Point(65, 3);
             this.rbStreamerNão.Name = "rbStreamerNão";
             this.rbStreamerNão.Size = new System.Drawing.Size(52, 20);
-            this.rbStreamerNão.TabIndex = 32;
+            this.rbStreamerNão.TabIndex = 16;
             this.rbStreamerNão.Text = "Não";
             this.rbStreamerNão.UseVisualStyleBackColor = true;
             // 
@@ -508,16 +565,18 @@
             this.rbStreamerSim.AutoSize = true;
             this.rbStreamerSim.Checked = true;
             this.rbStreamerSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbStreamerSim.Location = new System.Drawing.Point(432, 555);
+            this.rbStreamerSim.Location = new System.Drawing.Point(6, 3);
             this.rbStreamerSim.Name = "rbStreamerSim";
             this.rbStreamerSim.Size = new System.Drawing.Size(49, 20);
-            this.rbStreamerSim.TabIndex = 31;
+            this.rbStreamerSim.TabIndex = 15;
             this.rbStreamerSim.TabStop = true;
             this.rbStreamerSim.Text = "Sim";
             this.rbStreamerSim.UseVisualStyleBackColor = true;
             // 
             // cbPlataforma
             // 
+            this.cbPlataforma.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.cbPlataforma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbPlataforma.FormattingEnabled = true;
             this.cbPlataforma.Items.AddRange(new object[] {
@@ -535,10 +594,11 @@
             this.cbPlataforma.Location = new System.Drawing.Point(432, 618);
             this.cbPlataforma.Name = "cbPlataforma";
             this.cbPlataforma.Size = new System.Drawing.Size(164, 21);
-            this.cbPlataforma.TabIndex = 33;
+            this.cbPlataforma.TabIndex = 17;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(681, 87);
             this.pictureBox1.Name = "pictureBox1";
@@ -549,6 +609,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(751, 99);
@@ -579,19 +640,22 @@
             // 
             // btnSalvar
             // 
+            this.btnSalvar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSalvar.BackColor = System.Drawing.Color.Maroon;
             this.btnSalvar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
             this.btnSalvar.Location = new System.Drawing.Point(988, 6);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(275, 68);
-            this.btnSalvar.TabIndex = 39;
+            this.btnSalvar.TabIndex = 17;
             this.btnSalvar.Text = "Salvar Cadastro";
             this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // label17
             // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label17.Location = new System.Drawing.Point(1, 77);
             this.label17.Name = "label17";
@@ -600,6 +664,8 @@
             // 
             // label18
             // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label18.Location = new System.Drawing.Point(667, 79);
             this.label18.Name = "label18";
@@ -608,26 +674,28 @@
             // 
             // btnEditar
             // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEditar.BackColor = System.Drawing.Color.Maroon;
             this.btnEditar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
             this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.Location = new System.Drawing.Point(720, 6);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(262, 68);
-            this.btnEditar.TabIndex = 42;
+            this.btnEditar.TabIndex = 18;
             this.btnEditar.Text = "Editar Cadastro";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnApagar
             // 
+            this.btnApagar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnApagar.BackColor = System.Drawing.Color.Maroon;
             this.btnApagar.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold);
             this.btnApagar.ForeColor = System.Drawing.Color.White;
             this.btnApagar.Location = new System.Drawing.Point(439, 6);
             this.btnApagar.Name = "btnApagar";
             this.btnApagar.Size = new System.Drawing.Size(275, 68);
-            this.btnApagar.TabIndex = 43;
+            this.btnApagar.TabIndex = 19;
             this.btnApagar.Text = "Apagar Cadastro";
             this.btnApagar.UseVisualStyleBackColor = false;
             this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
@@ -635,7 +703,8 @@
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -721,12 +790,34 @@
             this.Column12.Name = "Column12";
             this.Column12.ReadOnly = true;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.rbAdsNão);
+            this.panel1.Controls.Add(this.rbAdsSim);
+            this.panel1.Location = new System.Drawing.Point(432, 111);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(151, 37);
+            this.panel1.TabIndex = 45;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.rbStreamerNão);
+            this.panel2.Controls.Add(this.rbStreamerSim);
+            this.panel2.Location = new System.Drawing.Point(432, 556);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(151, 37);
+            this.panel2.TabIndex = 46;
+            // 
             // CadastroYoutubers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1265, 652);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnApagar);
             this.Controls.Add(this.btnEditar);
@@ -738,13 +829,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbPlataforma);
-            this.Controls.Add(this.rbStreamerNão);
-            this.Controls.Add(this.rbStreamerSim);
             this.Controls.Add(this.nupQuantStrikes);
             this.Controls.Add(this.cbNacionalidade);
             this.Controls.Add(this.nupQuantVideos);
-            this.Controls.Add(this.rbAdsNão);
-            this.Controls.Add(this.rbAdsSim);
             this.Controls.Add(this.txtLink);
             this.Controls.Add(this.txtRenda);
             this.Controls.Add(this.textBox2);
@@ -773,11 +860,16 @@
             this.Text = "Cadastro de Youtubers";
             this.Activated += new System.EventHandler(this.CadastroYoutubers_Activated);
             this.Load += new System.EventHandler(this.CadastroYoutubers_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CadastroYoutubers_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantVideos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantStrikes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -838,6 +930,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

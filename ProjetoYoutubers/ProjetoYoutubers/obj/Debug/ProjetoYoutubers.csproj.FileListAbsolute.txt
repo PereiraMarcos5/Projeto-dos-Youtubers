@@ -9,3 +9,16 @@ C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\Pro
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.CadastroYoutubers.resources
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\Model.dll
 C:\Users\104968\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\Model.pdb
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.exe.config
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.exe
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\ProjetoYoutubers.pdb
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\Model.dll
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\bin\Debug\Model.pdb
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csprojResolveAssemblyReference.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.CadastroYoutubers.resources
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.Properties.Resources.resources
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csproj.GenerateResource.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.csproj.CopyComplete
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.exe
+C:\Users\Marcos Vini\OneDrive\Documentos\GitHub\ProjetoYoutubers\ProjetoYoutubers\ProjetoYoutubers\obj\Debug\ProjetoYoutubers.pdb

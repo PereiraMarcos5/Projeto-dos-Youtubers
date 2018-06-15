@@ -148,11 +148,13 @@ namespace Model
 
         public void SetNationality(string país)
         {
+
             Nationality = país;
         }
 
         public void SetPlataforma(string plataforma)
         {
+
             Plataforma = plataforma;
         }
 
